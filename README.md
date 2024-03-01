@@ -1,4 +1,5 @@
 Index.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,10 +8,8 @@ Index.html
   <title>To-Do List</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
 <body>
-
-    <div class="container">
+<div class="container">
         <h1>To-Do List</h1>
         <div class="input-wrapper">
           <input type="text" id="taskInput" placeholder="Add new task">
@@ -18,10 +17,7 @@ Index.html
         </div>
         <ul id="taskList"></ul>
       </div>
-      
       <script src="scripts.js"></script>
-
-
 </body>
 </html>
 
